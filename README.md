@@ -107,7 +107,7 @@ Bot loads and rotates them per request; empty file = no proxies (direct connecti
 ## Usage
 1. **Start the Bot**:
    ```
-   node index.js
+   node bot.js
    ```
    - Banner displays "BlockStreet Bot V3".
    - Loads proxies (if any) and scans .env for wallets.
@@ -135,7 +135,7 @@ Bot loads and rotates them per request; empty file = no proxies (direct connecti
 
 4. **Outputs and Logs**:
    - Console: Real-time status (info/warn/error/success/loading).
-   - No file logging; redirect with `node index.js > bot.log 2>&1`.
+   - No file logging; redirect with `node bot.js > bot.log 2>&1`.
    - Errors: Proxy fails retry without proxy; business errors (e.g., insufficient balance) skip and continue.
 
 5. **Stopping/Interrupting**:
