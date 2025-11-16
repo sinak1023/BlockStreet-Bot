@@ -1,9 +1,9 @@
 # BlockStreet Bot
 
 ## Overview
-This Node.js bot automates interactions with the BlockStreet DeFi platform, a liquidity infrastructure layer for tokenized assets, decentralized lending, leverage, and yield generation on the Ethereum mainnet and other chains.  It enables multi-wallet management, Ethereum-signed logins, CAPTCHA solving via Capsolver, proxy rotation for anonymity, and actions like swaps, supplying liquidity, borrowing, repaying, withdrawing, and daily shares to optimize capital efficiency and participate in platform activities.  Designed for users farming yields or engaging in DeFi routines, it includes stealth features like random user agents and delays to mimic human behavior.[1][2][3][4]
+This Node.js bot automates interactions with the BlockStreet DeFi platform, a liquidity infrastructure layer for tokenized assets, decentralized lending, leverage, and yield generation on the Ethereum mainnet and other chains.  It enables multi-wallet management, Ethereum-signed logins, CAPTCHA solving via Capsolver, proxy rotation for anonymity, and actions like swaps, supplying liquidity, borrowing, repaying, withdrawing, and daily shares to optimize capital efficiency and participate in platform activities.  Designed for users farming yields or engaging in DeFi routines, it includes stealth features like random user agents and delays to mimic human behavior.
 
-Developed by sinak1023. Join the crypto updates on Telegram channel @ostadkachal for tips and announcements.[5]
+Developed by sinak1023. Join the crypto updates on Telegram channel @ostadkachal for tips and announcements.
 
 Repository: https://github.com/sinak1023/blockstreet-bot
 
@@ -27,7 +27,7 @@ The bot focuses on small random amounts (0.001-0.0015 tokens) to simulate organi
 - Internet connection with access to blockstreet.money API (https://api.blockstreet.money).
 - Basic knowledge of Node.js, Ethereum, and DeFi risks (gas fees apply to on-chain actions).
 
-No additional hardware needed; runs on standard servers or local machines.[8]
+No additional hardware needed; runs on standard servers or local machines.
 
 ## Installation
 1. **Clone the Repository**:
@@ -101,7 +101,6 @@ Bot loads and rotates them per request; empty file = no proxies (direct connecti
 
 ### Notes on Config
 - **Security**: Use a VPS (e.g., AWS, DigitalOcean) for 24/7 runs. Never expose private keys.
-- **Gas Optimization**: Bot uses mainnet (chain ID 1); monitor via Etherscan.
 - **Updates**: If BlockStreet changes API (e.g., endpoints like `/swap`), edit the `BlockStreetClient` class.
 
 ## Usage
@@ -109,7 +108,7 @@ Bot loads and rotates them per request; empty file = no proxies (direct connecti
    ```
    node bot.js
    ```
-   - Banner displays "BlockStreet Bot V3".
+   - Banner displays "BlockStreet Bot".
    - Loads proxies (if any) and scans .env for wallets.
    - Validates wallets and shows addresses.
 
