@@ -1,4 +1,4 @@
-# BlockStreet Bot V3
+# BlockStreet Bot
 
 ## Overview
 This Node.js bot automates interactions with the BlockStreet DeFi platform, a liquidity infrastructure layer for tokenized assets, decentralized lending, leverage, and yield generation on the Ethereum mainnet and other chains.  It enables multi-wallet management, Ethereum-signed logins, CAPTCHA solving via Capsolver, proxy rotation for anonymity, and actions like swaps, supplying liquidity, borrowing, repaying, withdrawing, and daily shares to optimize capital efficiency and participate in platform activities.  Designed for users farming yields or engaging in DeFi routines, it includes stealth features like random user agents and delays to mimic human behavior.[1][2][3][4]
